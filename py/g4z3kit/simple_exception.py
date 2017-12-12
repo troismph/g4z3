@@ -1,0 +1,2 @@
+class SimpleException(Exception):
+    pass
