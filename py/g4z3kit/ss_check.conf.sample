@@ -1,0 +1,7 @@
+{
+"ME_ACCOUNT": "my email address",
+"ME_PASSWORD": "my password",
+"ME_SERVER": "my smtp server",
+"ME_PORT": 587,
+"THEM_ACCOUNT": "receiver email address"
+}
