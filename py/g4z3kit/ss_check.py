@@ -1,9 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import subprocess
 import requests
 import json
 import time
-import sys
 import os
 import argparse
 import functools
