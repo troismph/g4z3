@@ -330,6 +330,7 @@ class SocksSSHRemoteRequestHandler(SocksRemoteRequestHandler):
         create a ssh conversation
         '''
         conversation = paramiko.SSHClient()
+        conversation.load_system_host_keys()
         ssh_policy = paramiko.WarningPolicy()
         conversation.set_missing_host_key_policy(ssh_policy)
         try:
